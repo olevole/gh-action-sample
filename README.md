@@ -1,4 +1,4 @@
-# GitHub runner for FreeBSD quick/dirty howto
+# FreeBSD GitHub runner (self-hosted) quick/dirty howto.
 
 1) on Github:
 
