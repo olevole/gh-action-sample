@@ -27,6 +27,8 @@ go run . run
 
 Now Runner available in status page
 
+![image](https://user-images.githubusercontent.com/926409/147156127-02580d10-c076-4763-8703-4ff0f7bf716d.png)
+
 
 3) Create .github/workflows, e.g.: https://github.com/olevole/gh-action-sample/blob/main/.github/workflows/act.yml
 
