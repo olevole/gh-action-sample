@@ -33,3 +33,4 @@ Now Runner available in status page
 3) Create .github/workflows, e.g.: https://github.com/olevole/gh-action-sample/blob/main/.github/workflows/act.yml
 
 
+Hint: there are many checkout methods available. Test and choose the one that suits you best. My example uses external checkout script.
