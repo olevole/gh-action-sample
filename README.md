@@ -1,4 +1,4 @@
-# cbsd-freebsd-bases
+# GitHub runner for FreeBSD quick/dirty howto
 
 1) on Github:
 
