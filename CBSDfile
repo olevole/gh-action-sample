@@ -1,0 +1,18 @@
+
+bhyve_myvm1()
+{
+	vm_ram="4g"
+	vm_cpus="2"
+	imgsize="30g"
+	host_hostname="${jname}.my.domain"
+	vm_os_type="freebsd"
+	vm_os_profile="cloud-FreeBSD-ufs-x64-13.0"
+	ip4_addr="DHCP"
+	ip4_gw="10.0.0.1"
+	ci_jname="${jname}"
+	ci_fqdn="${fqdn}"
+	ci_ip4_addr="${ip4_addr}"
+	ci_gw4="${ip4_gw}"
+	runasap=1
+	ssh_wait=1
+}

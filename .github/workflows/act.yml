@@ -1,0 +1,30 @@
+name: CI
+on: push
+
+jobs:
+  linux:
+    name: FreeBSD build on node ${{ matrix.node_version }}
+    runs-on: [freebsd]
+    steps:
+    - name: checkout sources
+      uses: olevole/checkout@master
+    - name: git
+      run: cat .git/config
+    - name: ls
+      run: ls -la
+    - name: pwd
+      run: pwd
+    - name: uname
+      run: uname -a
+#    - name: git1
+#      run: git branch
+#    - name: git2
+#      run: git branch -a
+#    - name: get VM
+#      run: cbsd up cbsdfile=$( pwd )/CBSDfile
+#    - name: exec VM
+#      run: cbsd bexec jname=myvm1 date
+#    - name: update pkg
+#      run: env ASSUME_ALWAYS_YES=yes SIGNATURE_TYPE=none IGNORE_OSVERSION=yes pkg update -f
+#    - name: install mc
+#      run: env ASSUME_ALWAYS_YES=yes SIGNATURE_TYPE=none IGNORE_OSVERSION=yes pkg install mc
